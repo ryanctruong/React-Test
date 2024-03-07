@@ -1,0 +1,29 @@
+.drop-preview-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .drop-zone-container, .file-preview-container {
+    flex-basis: 48%; 
+  }
+  
+  .drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: 200px; 
+  }
+  
+  .drop-zone.active {
+    background-color: #efefef;
+  }
+  
+  .file-preview-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    height: 200px; 
+    overflow-y: auto; 
+  }
+  
